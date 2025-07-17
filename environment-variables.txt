@@ -1,0 +1,19 @@
+# KiwiStay Environment Variables for Deployment
+
+# Copy these values from your current Replit environment
+# These are the environment variables you need to add to your chosen deployment platform
+
+DATABASE_URL=your-supabase-database-url
+VITE_SUPABASE_URL=your-supabase-project-url
+VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+SUPABASE_SERVICE_KEY=your-supabase-service-key
+JWT_SECRET=kiwistay-secret-key-2025
+NODE_ENV=production
+
+# To find your Supabase values:
+# 1. Go to your Supabase dashboard
+# 2. Settings → API
+# 3. Copy the Project URL and anon key
+# 4. For DATABASE_URL, go to Settings → Database → Connection string
+
+# These values should be kept secret and added to your deployment platform's environment variable settings
